@@ -11,5 +11,8 @@
     "tenorok"
   ],
   "author": "Vasiliy Loginevskiy <yeti.or@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bem-naming": "^1.0.1"
+  }
 }
