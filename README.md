@@ -1,4 +1,6 @@
-# tenorok
+tenorok
+=======
+[![NPM version](http://img.shields.io/npm/v/tenorok.svg?style=flat)](http://www.npmjs.org/package/tenorok) [![Build Status](http://img.shields.io/travis/Yeti-or/tenorok/master.svg?style=flat&label=tests)](https://travis-ci.org/Yeti-or/tenorok) [![Coverage Status](https://img.shields.io/coveralls/Yeti-or/tenorok.svg?branch=master&style=flat)](https://coveralls.io/r/Yeti-or/tenorok) [![Dependency Status](http://img.shields.io/david/Yeti-or/tenorok.svg?style=flat)](https://david-dm.org/Yeti-or/tenorok)
 
 Tenorok is a building block of [bem_entity](https://github.com/bem-contrib/bem-entity)
 
