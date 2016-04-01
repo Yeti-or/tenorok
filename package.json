@@ -11,7 +11,7 @@
   "main": "lib",
   "scripts": {
     "test": "ava tests",
-    "coverage": "nyc npm test",
+    "coverage": "nyc ava tests",
     "coveralls": "npm i coveralls && npm run coverage && nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
