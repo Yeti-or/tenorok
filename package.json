@@ -2,18 +2,21 @@
   "name": "tenorok",
   "version": "0.0.1",
   "description": "BEM Tenorok",
-  "main": "lib",
-  "scripts": {
-    "test": "ava tests"
-  },
   "keywords": [
     "BEM",
     "tenorok"
   ],
   "author": "Vasiliy Loginevskiy <yeti.or@gmail.com>",
   "license": "MIT",
+  "main": "lib",
+  "scripts": {
+    "test": "ava tests",
+    "coverage": "nyc npm test",
+    "coveralls": "npm i coveralls && npm run coverage && nyc report --reporter=text-lcov | coveralls"
+  },
   "dependencies": {
-    "bem-naming": "^1.0.1"
+    "bem-naming": "^1.0.1",
+    "nyc": "^6.1.1"
   },
   "devDependencies": {
     "ava": "^0.13.0"
